@@ -8,45 +8,49 @@
   <title>首页</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="js/jquery.min.js"></script>
-  <!-- <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
   <!-- 导航 -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">LOGO</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">关于我们</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">公司产品</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">成功案例</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">合作伙伴</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">新闻中心</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">联系我们</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <header class="container-fluid p-0">
+    <nav class="navbar navbar-expand-md navbar-light bg-light container-fluid px-0 py-3 mx-0">
+      <div class=" col text-center"><img class="navbar-brand m-0" href="#" style="width:150px;"
+          src="img/web/logo.png"></img></div>
+      <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="col-md-8">
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
+          <ul class="navbar-nav d-flex justify-content-between w-100 pr-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">首页<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">关于我们</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">公司产品</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">成功案例</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">合作伙伴</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">新闻中心</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">联系我们</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
   <!-- 轮播 -->
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -77,83 +81,292 @@
   </div>
 
   <!-- 关于我们 -->
-  <div class="container-fluid mt-5 mb-5">
-      <div class="container intro-title text-center mt-5 p-5">
-          <h3>关于我们</h3>
-          <img src="img/web/line.png" alt="">
-          <p>About Us</p>
+  <section id="home_about">
+    <div class="container-fluid mt-5 mb-md-5">
+      <div class="container text-center mt-5 p-md-5">
+        <h3 class="title-CN">关于我们</h3>
+        <img src="img/web/line.png" alt="">
+        <p class="title-EN">About Us</p>
       </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7">
-          <h5>南京辽渡网络科技有限公司</h5>
-          <p class="lead text-muted">南京辽渡网络公司成立于2008年，是经中国外经贸部和深圳市人民政府批准注册
-            的专业化现代物流企业。公司具备一级货代经营权，代理报关、报检经营权，海关
-            监管仓、保税仓经营权，道路运输经营权，进出口贸易经营权等，经营范围涵盖全
-            程物流供应链服务。并且同时经营广州状元谷与深圳前海电商仓配服务.
-          </p>
-          <a href="#" class="btn btn-danger">查看更多</a>
-        </div>
-        <div class="col-lg-5">
-          <img src="img/web/about-us.png" class="img-responsive" alt="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h5 class="about-title">南京辽渡网络科技有限公司</h5>
+            <p class="lead text-muted about-p">南京辽渡网络公司成立于2008年，是经中国外经贸部和深圳市人民政府批准注册
+              的专业化现代物流企业。公司具备一级货代经营权，代理报关、报检经营权，海关
+              监管仓、保税仓经营权，道路运输经营权，进出口贸易经营权等，经营范围涵盖全
+              程物流供应链服务。并且同时经营广州状元谷与深圳前海电商仓配服务.
+            </p>
+            <a href="#" class="btn btn-danger mb-3">查看更多</a>
+          </div>
+          <div class="col-md-4">
+            <img src="img/web/about-us.png" class="img-responsive w-100 " alt="">
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- 公司产品 -->
-  <div class="container-fluid mt-5 pt-1 main-product">
-      <div class="container intro-title text-center mt-5 pt-2">
-          <h3>公司产品</h3>
-          <img src="img/web/line.png" alt="">
-          <p>Company Product Range</p>
+  <section id="home_product">
+    <div class="container-fluid mt-md-5 pb-md-5 main-product">
+      <div class="container text-center mt-5 p-md-5">
+        <h3 class="title-CN">公司产品</h3>
+        <img src="img/web/line.png" alt="">
+        <p class="title-EN">Company Product Range</p>
       </div>
-      <div class="container pt-5">
-          <div class="row mt-2">
-              <div class="col-lg-3 text-center product-item pt-4">
-                  <p class="product-item-title">智慧社区</p>
-                  <img src="img/web/product-shequ.png" alt="">
-                  <p class="product-item-content text-left p-2">物业服务平台，社区o2o系统平台，一站式服务，利用新一代信息技术，为居民提供安全、舒适、便利的生活环境。</p>
-              </div>
-              <div class="col-lg-3 text-center product-item-active pt-4">
-                  <p class="product-item-title">智慧民政</p>
-                  <img src="img/web/product-minzheng.png" alt="">
-                  <p class="product-item-content text-left p-2">利用大数据、云计算等新技术，整合数据资源，建设综合信息管理平台，统筹推进民政业务工作。</p>
-              </div>
-              <div class="col-lg-3 text-center product-item pt-4">
-                  <p class="product-item-title">智慧党建</p>
-                  <img src="img/web/product-dangjian.png" alt="">
-                  <p class="product-item-content text-left p-2">碎片化学习、系统性认知、社交化管理、精细化服务。党的建设全流程信息化，一体化党务解决方案</p>
-              </div>
-              <div class="col-lg-3 text-center product-item pt-4">
-                  <p class="product-item-title">智慧养老</p>
-                  <img src="img/web/product-older.png" alt="">
-                  <p class="product-item-content text-left p-2">面向居家老人、社区及养老机构传感网系统与信息平台，提供实时、快捷、高效、低成本的，物联化、互联化、智能化的养老服务。</p>
-              </div>
+      <div class="container pt-xl-5">
+        <div class="row mt-2 text-center">
+          <div class="col-md-3 col-6 product-item pt-4">
+            <h3 class="product-title ">智慧社区</h3>
+            <img src="img/web/product-shequ.png" alt="">
+            <p class="product-p text-left py-md-4">物业服务平台，社区o2o系统平台，一站式服务，利用新一代信息技术，为居民提供安全、舒适、便利的生活环境。</p>
           </div>
+          <div class="col-md-3 col-6 item-active pt-4">
+            <h3 class="product-title ">智慧民政</h3>
+            <img src="img/web/product-minzheng.png" alt="">
+            <p class="product-p text-left py-md-4">利用大数据、云计算等新技术，整合数据资源，建设综合信息管理平台，统筹推进民政业务工作。</p>
+          </div>
+          <div class="col-md-3 col-6 product-item pt-4">
+            <h3 class="product-title ">智慧党建</h3>
+            <img src="img/web/product-dangjian.png" alt="">
+            <p class="product-p text-left py-md-4">碎片化学习、系统性认知、社交化管理、精细化服务。党的建设全流程信息化，一体化党务解决方案</p>
+          </div>
+          <div class="col-md-3 col-6 product-item pt-4">
+            <h3 class="product-title ">智慧养老</h3>
+            <img src="img/web/product-older.png" alt="">
+            <p class="product-p text-left py-md-4">面向居家老人、社区及养老机构传感网系统与信息平台，提供实时、快捷、高效、低成本的，物联化、互联化、智能化的养老服务。</p>
+          </div>
+        </div>
       </div>
-  </div>
+    </div>
+  </section>
 
   <!-- 成功案例 -->
-  <div class="main text-center">
-    <h3>成功案例</h3>
-    <p>Successful Cases Show</p>
-    <div class="container success-case">
-      <div class="row">
-        <p>辽渡科技有限公司长期以来以卓越的产品技能与技术为核心，专注于智慧社区服务，
-          坚持创新，开放，合作的经营理念，目前，公司的各种产品已被广泛运用于医疗、政府、金融、政务、等多个行业，并且在宝塔桥街道、新街口街道、江北新区已成功试点。</p>
+  <section id="home_case">
+    <div class="container-fluid text-center  my-5">
+      <div class="container  mt-5 px-md-5">
+        <h3 class="title-CN">成功案例</h3>
+        <img src="img/web/line.png" alt="">
+        <p class="title-EN">Successful Cases Show</p>
+        <p class="container text-center pt-md-5 case-p">
+          辽渡科技有限公司长期以来以卓越的产品技能与技术为核心，专注于智慧社区服务，
+          坚持创新，开放，合作的经营理念，目前，公司的各种产品已被广泛运用于医疗、政府、金融、政务、等多个行业，并且在宝塔桥街道、新街口街道、江北新区已成功试点。
+        </p>
       </div>
-      <a href="#" class="btn btn-primary">查看更多</a>
-
+      <div class="container">
+        <div class="row main-case-show ">
+          <figure class="col-md-3 mb-2 figure">
+            <img src="img/web/main-case-show01.png" class="figure-img img-fluid rounded-top mb-0" alt="">
+            <figcaption class="figure-caption">宝塔桥街道</figcaption>
+          </figure>
+          <figure class="col-md-3 mb-2 figure">
+            <img src="img/web/main-case-show01.png" class="figure-img img-fluid rounded-top mb-0" alt="">
+            <figcaption class="figure-caption">宝塔桥街道</figcaption>
+          </figure>
+          <figure class="col-md-3 mb-2 figure">
+            <img src="img/web/main-case-show01.png" class="figure-img img-fluid rounded-top mb-0" alt="">
+            <figcaption class="figure-caption">宝塔桥街道</figcaption>
+          </figure>
+          <figure class="col-md-3 mb-2 figure">
+            <img src="img/web/main-case-show01.png" class="figure-img img-fluid rounded-top mb-0" alt="">
+            <figcaption class="figure-caption">宝塔桥街道</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="container text-center mt-3">
+        <a href="#" class="btn btn-outline-info btn-lg">查看更多</a>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <!-- 合作伙伴 -->
+  <section id="home_partner">
+    <div class="container-fluid mt-5 pt-1 main-parterner">
+      <div class="container intro-title text-center mt-md-5 p-3">
+        <h3 class="title-CN">合作伙伴</h3>
+        <img src="img/web/line.png" alt="">
+        <p class="title-EN">Cooperation Partnners</p>
+      </div>
+      <div class="container p-3">
+        <div class="row parterner-school">
+          <div class="col-4 p-4">
+            <img src="img/web/school01.png" alt="">
+            <span>南京人工智能研究院</span>
+          </div>
+          <div class="col-4 p-4">
+            <img src="img/web/school01.png" alt="">
+            <span>南京人工智能研究院</span>
+          </div>
+          <div class="col-4 p-4">
+            <img src="img/web/school02.png" alt="">
+            <span>南京人工智能研究院</span>
+          </div>
+          <div class="col-4 p-4">
+            <img src="img/web/school03.png" alt="">
+            <span>南京人工智能研究院</span>
+          </div>
+          <div class="col-4 p-4">
+            <img src="img/web/school04.png" alt="">
+            <span>南京人工智能研究院</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 新闻中心 -->
+  <section id="home_infor">
+    <div class="container-fluid mt-5 mb-md-5">
+      <div class="container text-center mt-5 p-md-5">
+        <h3 class="title-CN">新闻中心</h3>
+        <img src="img/web/line.png" alt="">
+        <p class="title-EN">Information Centers</p>
+      </div>
+    </div>
+    <div class="container mb-md-5">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="img/web/news-pic.png" class="img-responsive w-100 d-none d-md-block" alt="">
+        </div>
+        <div class="col-md-7">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                aria-controls="pills-home" aria-selected="true">公司新闻</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                aria-controls="pills-profile" aria-selected="false">行业动态</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                aria-controls="pills-contact" aria-selected="false">技术中心</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+              <div class="row p-0 tab-news-item">
+                <div class="col-3"><img src="img/web/news-pic01.png" class="w-100 img-responsive py-1" alt=""></div>
+                <div class="col-9 p-0">
+                  <h4 class="float-left mb-0">新闻名称</h4>
+                  <span class="float-left pl-2 text-muted">2019-04-30</span>
+                  <a href="#" class="float-right pr-2">更多&gt;&gt;</a>
+                  <p>包图网汇集了各种流行趋势,视觉冲击力强的原创广告图片设计、电商淘宝、设
+                    计师的商用需求,下载高品质正版素材就到包图网。</p>
+                </div>
+              </div>
+              <div class="row p-0 tab-news-item">
+                <div class="col-3"><img src="img/web/news-pic01.png" class="w-100 img-responsive py-1" alt=""></div>
+                <div class="col-9 p-0">
+                  <h4 class="float-left mb-0">新闻名称</h4>
+                  <span class="float-left pl-2 text-muted">2019-04-30</span>
+                  <a href="#" class="float-right pr-2">更多&gt;&gt;</a>
+                  <p>包图网汇集了各种流行趋势,视觉冲击力强的原创广告图片设计、电商淘宝、设
+                    计师的商用需求,下载高品质正版素材就到包图网。</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="row p-0 tab-news-item">
+                <div class="col-3"><img src="img/web/news-pic01.png" class="w-100 img-responsive py-1" alt=""></div>
+                <div class="col-9 p-0">
+                  <h4 class="float-left mb-0">新闻名称</h4>
+                  <span class="float-left pl-2 text-muted">2019-04-30</span>
+                  <a href="#" class="float-right pr-2">更多&gt;&gt;</a>
+                  <p>包图网汇集了各种流行趋势,视觉冲击力强的原创广告图片设计、电商淘宝、设
+                    计师的商用需求,下载高品质正版素材就到包图网。</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <div class="row p-0 tab-news-item">
+                <div class="col-3"><img src="img/web/news-pic01.png" class="w-100 img-responsive py-1" alt=""></div>
+                <div class="col-9 p-0">
+                  <h4 class="float-left mb-0">新闻名称</h4>
+                  <span class="float-left pl-2 text-muted">2019-04-30</span>
+                  <a href="#" class="float-right pr-2">更多&gt;&gt;</a>
+                  <p>包图网汇集了各种流行趋势,视觉冲击力强的原创广告图片设计、电商淘宝、设
+                    计师的商用需求,下载高品质正版素材就到包图网。</p>
+                </div>
+              </div>
+              <div class="row p-0 tab-news-item">
+                <div class="col-3"><img src="img/web/news-pic01.png" class="w-100 img-responsive py-1" alt=""></div>
+                <div class="col-9 p-0">
+                  <h4 class="float-left mb-0">新闻名称</h4>
+                  <span class="float-left pl-2 text-muted">2019-04-30</span>
+                  <a href="#" class="float-right pr-2">更多&gt;&gt;</a>
+                  <p>包图网汇集了各种流行趋势,视觉冲击力强的原创广告图片设计、电商淘宝、设
+                    计师的商用需求,下载高品质正版素材就到包图网。</p>
+                </div>
+              </div>
+              <div class="row p-0 tab-news-item">
+                <div class="col-3"><img src="img/web/news-pic01.png" class="w-100 img-responsive py-1" alt=""></div>
+                <div class="col-9 p-0">
+                  <h4 class="float-left mb-0">新闻名称</h4>
+                  <span class="float-left pl-2 text-muted">2019-04-30</span>
+                  <a href="#" class="float-right pr-2">更多&gt;&gt;</a>
+                  <p>包图网汇集了各种流行趋势,视觉冲击力强的原创广告图片设计、电商淘宝、设
+                    计师的商用需求,下载高品质正版素材就到包图网。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 页尾 -->
+  <footer class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-6 col-md-4">
+        <div class="container">
+          <h5>网站导航</h5>
+          <img src="img/web/line2.png" alt="">
+          <div class="cointer">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <p>网站首页</p>
+                <p>关注我们</p>
+                <p>公司产品</p>
+              </div>
+              <div class="col-12 col-md-6">
+                <p>成功案例</p>
+                <p>合作伙伴</p>
+                <p>新闻中心</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <h5>联系我们</h5>
+        <img src="img/web/line2.png" alt="">
+        <p>质询热线:000-000-000</p>
+        <p>联系邮箱:baotu.com</p>
+        <p>联系地址:江苏省南京市秦淮区金陵御景园商务大厦7楼7A</p>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="container pb-3">
+          <h5>关注我们</h5>
+          <img src="img/web/line2.png" alt="">
+          <div class="container">
+            <div class="row ">
+              <img src="img/web/erweima.png" alt="" class="w-50 img-responsive">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="container-fluid footer-cp text-center">
+    Copyright ©2019 All Rights Reserved　南京辽渡信息科技有限公司　版权所有
+    <div />
 
 
 
-
-
-  <br><br>
-  <br><br><br><br><br><br><br><br><br>
 </body>
 
 </html>
