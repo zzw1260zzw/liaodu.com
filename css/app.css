@@ -1,12 +1,15 @@
 
 /******************* 公共样式 **********************/
+/* *{
+  padding: 0px;
+  margin: 0px;
+} */
 /* 导航 */
 .navbar-light .navbar-nav a:hover{
   border-bottom: 2px solid #c12f2f;
 }
-
+/***************************** 首页 *********************************/
 /* 首页标题 */
-
   .title-CN{
     font-size: 28px;
     line-height: 20px;
@@ -21,8 +24,7 @@
     line-height: 20px;
     color: #626262;
   }
-
-/******************* 关于我们 **********************/
+/* 关于我们 */
   #home_about .about-title{
     font-size: 20px;
     letter-spacing: 0px;
@@ -33,8 +35,7 @@
     font-weight: normal;
       font-stretch: normal;
   }
-
-/******************* 公司产品 **********************/
+/* 公司产品 */
   #home_product .product-title{
     font-size: 20px;
     letter-spacing: 0px;
@@ -42,7 +43,6 @@
     font-weight: normal;
     font-stretch: normal;
     margin-bottom: 0rem,
-    
   }
   #home_product .product-p{
     font-size:14px;
@@ -62,7 +62,6 @@
     margin-top: -10px;
     box-shadow:0px 0px 8px 0px #999;
   }
- 
   #home_product .item-active img{
     width: 75px;
     height:75px;
@@ -73,8 +72,7 @@
     line-height: 20px;
     color: #666;
   }
-
-/******************* 成功案例 **********************/
+/* 成功案例 */
   #home_case .case-p{
     font-size: 15px;
     line-height: 25px;
@@ -89,9 +87,7 @@
     line-height: 44px;
     color: #fff;
   }
-
-/******************* 新闻中心 **********************/
-
+/* 新闻中心 */
 .tab-news-item a,.tab-news-item span,.tab-news-item p{
   font-size: 14px;
   color: #666;
@@ -108,16 +104,24 @@
   display:-webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  line-height: 24px;
+  line-height: 24px
 }
-
-
+.tab-news-item a{
+  color: #c12f12;
+}
 .main-parterner{
   background-color: #fafafa;
   margin: 60px 0;
 }
+.about-team-member {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.about-team-member img{
+  width:100%;
 
-/******************* 页脚 **********************/
+}
+/*************************** 页尾 ***********************************/
 footer {
   background: #f0f0f0;
 }
@@ -135,6 +139,234 @@ footer h5{
   line-height: 30px;
   font-size: 16px;
 }
+
+.bottom-nav {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+}
+.bottom-nav-content a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  line-height: 30px;
+}
+.bottom-nav-item h3 {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -2px;
+  color: #333333;
+}
+
+/***************************** 关于我们 *********************************/
+/* 面包屑导航 */
+.breadcrumb {
+  border-bottom: 11px solid #eee;
+  background-color: #fff; 
+}
+/* 公司简介主题部分 */
+.list-group-item {
+  border:none;
+  /* border-bottom: 1px soild #000; */
+}
+
+.about-body .about-subtitle {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color:#333;
+}
+.about-content p {
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #666666;
+  text-indent: 35px;
+}
+
+/***************************** 公司产品 *********************************/
+
+/* 智慧社区 */
+.home-page .tab-community h3{
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+.home-page .tab-community p{
+font-size: 10px;
+color: #909090
+}
+/* 智慧民政 */
+.home-page .tab-people:hover{
+    box-shadow: 0px 0px 32px 4px #f4f4f4;
+    border-radius: 55px 3px 55px 3px;
+}
+.home-page .tab-people{
+  height:300px;
+}
+.home-page .tab-people img{
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.home-page .tab-people h3{
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #22365b;
+  font-weight: normal;
+}
+.home-page .tab-people p{
+display: none;
+}
+/* 智慧党建 */
+.home-page .tab-part h3 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #333;
+  margin-bottom:0px;
+}
+.home-page .tab-part p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #999;
+  height:80px;
+}
+/* 智慧养老 */
+
+.home-page .tab-older span {
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 36px;
+  letter-spacing: 0px;
+  color: #cfd8dc;
+  opacity: 0.2;
+}
+.home-page .tab-older h3 {
+  margin: 15px 0 10px 0;
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #263238;
+}
+
+.home-page .tab-older p {
+  margin: 0;
+  display: block;
+  height: 70px;
+  padding-right: 80px;
+  font-size: 18px;
+  color: #263238;
+}
+
+/***************************** 成功案例 *********************************/
+.case-title h3{
+  font-size:24px;
+  font-weight:normal;
+}
+
+.case-introduce h3{
+  color: #f12f2f;
+  margin:10px;
+}
+.case-introduce span{
+  margin-left: 10px;
+  margin-bottom:20px;
+  color: #969696;
+}
+.case-introduce p{
+  margin:10px;
+  color: #6a6a6a;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+/***************************** 新闻中心 *********************************/
+.tab-pane .tab-news-item{
+  border-bottom:1px solid #eee;
+}
+/***************************** 联系我们 *********************************/
+.comment-item{
+  border:1px solid #eee;
+  box-shadow: 0px 6px 6px 0px #eee;
+  background-color: #fff;
+  padding-top: 100px;
+}
+.comment-item h3{
+  font-size: 25px;
+  line-height: 46px;
+  color: #666666;
+}
+.comment-item p{
+  font-size: 20px;
+  line-height: 40px;
+  color: #888888;
+}
+.comment-item .content-button-01{
+  background-image: linear-gradient(90deg, #4caefe 0%,#02e1fe 100%), linear-gradient(#338181, #338181);
+  background-blend-mode: normal, normal;
+  box-shadow: 0px 2px 5px 0px rgba(46, 195, 254, 0.57);
+}
+.comment-item  .content-button-02{
+  background-image: linear-gradient(52deg, 
+		#24c3e9 0%, 
+		#44ffc7 100%), 
+	linear-gradient(
+		#338181, 
+		#338181);
+	background-blend-mode: normal, 
+		normal;
+	box-shadow: -0.1px 2px 5px 0px 
+		rgba(0, 168, 190, 0.3);
+}
+.comment-item  .content-button-03{
+  background-image: linear-gradient(52deg, 
+  #f3646e 0%, 
+  #f55982 100%), 
+linear-gradient(
+  #338181, 
+  #338181);
+background-blend-mode: normal, 
+  normal;
+box-shadow: -0.1px 2px 5px 0px 
+  rgba(190, 0, 58, 0.3);
+}
+.comment-item  .content-button-04{
+  background-image: linear-gradient(52deg, 
+  #f5a05b 0%, 
+  #f5d959 100%), 
+linear-gradient(
+  #338181, 
+  #338181);
+background-blend-mode: normal, 
+  normal;
+box-shadow: -0.1px 2px 5px 0px 
+  rgba(190, 0, 58, 0.3);
+}
+
+.comment-item a {
+  text-decoration: none;
+  color: #fff !important;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -156,7 +388,7 @@ footer h5{
       background: #00ce60;
       transition: all .2s ease;
     }
-/******************* 关于我们 **********************/
+/* 关于我们 */
     #home_about .about-title{
       font-size: 27px;
     }
@@ -165,7 +397,7 @@ footer h5{
       line-height: 26px;
       letter-spacing: 0px;
     }
-/******************* 公司产品 **********************/
+/* 公司产品 */
     .main-product{background: url('../img/web/product-bg.png') no-repeat 100%;}
 
     #home_product .product-title{
@@ -204,13 +436,12 @@ footer h5{
       font-size: 18px;
       line-height: 30px;
     }
-/******************* 成功案例 **********************/
+    /* 成功案例 */
     #home_case .case-p{
       font-size: 18px;
       line-height: 32px;
     }
-   
-/******************* 页脚 **********************/
+/*页脚  */
 footer img{
   margin:15px 0 50px;
 }
@@ -225,7 +456,111 @@ footer p{
   line-height: 60px
 }
 
-  }
+/***************************** 关于我们 *********************************/
+
+/* 面包屑导航 */
+.breadcrumb {
+ line-height: 60px;
+ font-size: 20px;
+}
+
+/* 关于我们 */
+.list-group{
+  border-top:12px solid #f0f0f0;
+  border-bottom:12px solid #f0f0f0;
+}
+.list-group a{
+  line-height:40px;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.list-group-item.active {
+  z-index: 2;
+  color:#c12f2f;
+  background-color: #fff;
+  border-color: #000;
+}
+/***************************** 公司产品 *********************************/
+
+/* 智慧社区 */
+.home-page .tab-community h3{
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+.home-page .tab-community p{
+font-size: 16px;
+color: #909090
+}
+/* 智慧党建 */
+.home-page .tab-part h3 {
+  font-size: 20px;
+  margin-bottom:10px;
+}
+/***************************** 成功案例 *********************************/
+.case-title h3{
+  font-size:32px;
+}
+.case-page-01{
+  background: url(../img/web/case-item-bg01.png) no-repeat left top;
+}
+.case-page-02{
+  background: url(../img/web/case-item-bg02.png) no-repeat left top;
+}
+.case-page-03{
+  background: url(../img/web/case-item-bg01.png) no-repeat left top;
+}
+.case-introduce {
+  width: 668px;
+  height: 433px;
+  background-color: #fff;
+  border-right: 2px solid #c12f2f;
+  float: right
+}
+.case-page-02 .case-introduce{
+  background-color: #f12f2f;
+}
+.case-page-02 .case-introduce h3{
+  color: #fff;
+} 
+.case-page-02 .case-introduce span{
+  color: #fff;
+} 
+.case-page-02 .case-introduce p{
+  color: #fff;
+} 
+.case-introduce h3{
+  color: #f12f2f;
+  margin:30px;
+}
+.case-introduce span{
+  margin-left: 30px;
+  margin-bottom:40px;
+  color: #969696;
+}
+.case-introduce p{
+  margin:30px;
+  color: #6a6a6a;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+/***************************** 合作伙伴 *********************************/
+.main-parterner{
+  background-color: #fafafa;
+  margin-bottom: 60px;
+}
+.main-parterner span{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #666666;
+}
+
+
+ 
+}
   
 
 
