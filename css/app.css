@@ -88,7 +88,7 @@
     color: #fff;
   }
 /* 新闻中心 */
-.tab-news-item a,.tab-news-item span,.tab-news-item p{
+/* .tab-news-item a,.tab-news-item span,.tab-news-item p{
   font-size: 14px;
   color: #666;
 }
@@ -119,8 +119,7 @@
 }
 .about-team-member img{
   width:100%;
-
-}
+} */
 /*************************** 页尾 ***********************************/
 footer {
   background: #f0f0f0;
