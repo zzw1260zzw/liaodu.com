@@ -1,9 +1,9 @@
 
 /******************* 公共样式 **********************/
-/* *{
+*{
   padding: 0px;
   margin: 0px;
-} */
+}
 /* 导航 */
 .navbar-light .navbar-nav a:hover{
   border-bottom: 2px solid #c12f2f;
@@ -87,39 +87,7 @@
     line-height: 44px;
     color: #fff;
   }
-/* 新闻中心 */
-/* .tab-news-item a,.tab-news-item span,.tab-news-item p{
-  font-size: 14px;
-  color: #666;
-}
-.tab-news-item h4{
-  display: inline-block;
-  font-size: 18px;
-  color: #333;
-}
-.tab-news-item p{
-  width:100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display:-webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  line-height: 24px
-}
-.tab-news-item a{
-  color: #c12f12;
-}
-.main-parterner{
-  background-color: #fafafa;
-  margin: 60px 0;
-}
-.about-team-member {
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-.about-team-member img{
-  width:100%;
-} */
+
 /*************************** 页尾 ***********************************/
 footer {
   background: #f0f0f0;
@@ -166,7 +134,6 @@ footer h5{
 /* 公司简介主题部分 */
 .list-group-item {
   border:none;
-  /* border-bottom: 1px soild #000; */
 }
 
 .about-body .about-subtitle {
@@ -277,10 +244,7 @@ display: none;
   line-height: 24px;
   letter-spacing: 1px;
 }
-/***************************** 新闻中心 *********************************/
-.tab-pane .tab-news-item{
-  border-bottom:1px solid #eee;
-}
+
 /***************************** 联系我们 *********************************/
 .comment-item{
   border:1px solid #eee;
